@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latin 2 - Pacific Bay Christian School</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
+    <script type="text/javascript" src="/javascript/build.js"></script>
+    <script type="text/javascript" src="/javascript/app.js"></script>
+  </head>
+  <body>
+    <div class="app">
+        <p style="margin-top: -3px;"><b>Please input your answers and press "Enter" to check them.</b></p>
+        <p id="instr"><b>For verbs, please give the first principal part (or second for
+        defective verbs with no first principal part); for nouns, give the singlar
+        nominative; for adjectives, give the masculine singular nominative.</b></p>
+        <div class="border"></div>
+        <p id="chapters"></p>
+        <table id="vocabtable">
+        </table>
+        <br>
+        <div class="border"></div>
+        <br>
+        <form action="index.html" method="get">
+          <select name="test">
+            <option value="some">Quiz</option>
+            <option value="all">Test</option>
+          </select>
+          vocabulary from Chapter
+          <select name="start" id="verbsstart">
+          </select>
+          to Chapter
+          <select name="end" id="verbsend">
+          </select>
+          from
+          <select name="english">
+            <option value="yes">Latin to English</option>
+            <option value="no">English to Latin</option>
+          </select>
+          <input type="submit" value="Start"/>
+        </form>
+      </div>
+  </body>
+</html>
